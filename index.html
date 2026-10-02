@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizontal Navigation</title>
+
+    <style>
+        nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        }
+
+        nav li a {
+            display: block;
+            padding: 15px 30px;
+            color: #333;
+            text-decoration: none;
+            text-transform: uppercase;
+            background-color: #e5e5e5;
+        }
+
+        nav li:nth-child(1) a {
+            background-color: #46b3b3;
+            color: white;
+            border-bottom: 4px solid #e5e5e5;
+        }
+
+        nav li:nth-child(2) a {
+            background-color: #333;
+            color: white;
+            border-bottom: 4px solid #46b3b3;
+        }
+
+        nav li:nth-child(3) a {
+            border-bottom: 4px solid #e5e5e5;
+        }
+
+        nav li:nth-child(4) a {
+            border-bottom: 4px solid #e5e5e5;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a>Home</a></li>
+            <li><a>Service</a></li>
+            <li><a>Project</a></li>
+            <li><a>About</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
